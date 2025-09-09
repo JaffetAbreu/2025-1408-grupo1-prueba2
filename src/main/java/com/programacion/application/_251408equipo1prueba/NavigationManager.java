@@ -19,8 +19,7 @@ public class NavigationManager {
     public enum Screen {
         LOGIN("login-view.fxml", "Login"),
         MAIN("main-view.fxml", "Sistema Principal"),
-        ESTUDIANTES("estudiantes-view.fxml", "Gestión de Estudiantes"),
-        CALIFICACIONES("calificaciones-view.fxml", "Gestión de Calificaciones");
+
 
         private final String fxmlFile;
         private final String title;
