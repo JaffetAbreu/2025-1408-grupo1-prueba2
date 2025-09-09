@@ -1,4 +1,4 @@
-package com.programacion.inventario.util;
+package com.programacion.application._251408equipo1prueba;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -18,7 +18,7 @@ public class NavigationManager {
 
     public enum Screen {
         LOGIN("login-view.fxml", "Login"),
-        MAIN("main-view.fxml", "Sistema Principal"),
+        MAIN("main-view.fxml", "Sistema Principal");
 
 
         private final String fxmlFile;
